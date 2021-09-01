@@ -1,24 +1,34 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Countdown Timer</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <h1> <span id="boot-color">Tech Karo BootCamp</span>  days left</h1>
+        <h2>This course will be over in</h2>
 
-    <h1>Codecademy Practice go to console</h1>
-    <script src="if-else.js"></script>
-    <script src="functions.js"></script>
-    <script src="scope.js"></script>
-    <script src="array.js"></script>
-    <script src="loops.js"></script>
-    <script src="higher-order-funtions.js"></script>
-    <script src="iterators.js"></script>
-    <script src="objects.js"></script>
-    <script src="advanced-objects-introduction.js"></script>
-    <script src="introduction-to-classes.js"></script>
-    <script src="JAVASCRIPT-PROMISES.js"></script>
-</body>
+        <div class="countdown-container">
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days"></p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours"></p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins"></p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds"></p>
+                <span>seconds</span>
+            </div>
+        </div>
+    </body>
 </html>
